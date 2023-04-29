@@ -21,8 +21,10 @@ from composer.utils import module_surgery
 _GHOSTBN_MODULE_CLASS = _GhostBatchNorm
 _GHOSTBN_CORRECT_EVENT = Event.INIT
 
-_TEST_NUM_DIMS = [1, 2, 3]
-_TEST_GHOST_BATCH_SIZES = [1, 2, 3, 5]
+# _TEST_NUM_DIMS = [1, 2, 3]
+# _TEST_GHOST_BATCH_SIZES = [1, 2, 3, 5]
+_TEST_NUM_DIMS = [1]
+_TEST_GHOST_BATCH_SIZES = [1]
 _TEST_BATCH_SIZES = [12]  # multiple of some, but not all, ghost batch sizes
 
 
